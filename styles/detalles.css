@@ -1,0 +1,91 @@
+main
+{
+    padding-top: 50px;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+}
+main section
+{
+    padding: 0px 50px 50px 50px;
+}
+main section img
+{
+    width: 100%;   
+}
+
+main aside hr
+{
+    margin: auto;
+    color: black;
+    width: 1px;
+    height: 200px;
+}
+main aside
+{
+    display: grid;
+    grid-template-columns: 10% 90%;
+}
+main aside .content
+{
+    width: 90%;
+    padding: 10px;
+
+}
+main aside img
+{
+    width: 100px;
+}
+main aside .versiones ul li
+{
+    margin: 0px;
+    padding: 5px;
+    background-color: rgb(202, 202, 239);
+    list-style-type: none;
+}
+main aside .versiones ul
+{
+    margin: 0px;
+    padding: 0px;
+}
+main aside .donaciones ul li
+{
+    margin: 20px 0px;
+    list-style-type: none;
+    padding: 10px;
+    border: 3px solid black;
+    
+}
+main aside .donaciones ul li:hover
+{
+    border: 3px solid;
+    border-image: linear-gradient(to right, darkblue, darkorchid) 1;
+}
+main aside .donaciones ul
+{
+    margin: 0px;
+    padding: 0px; 
+}
+
+
+
+@media (max-width: 700px)
+{
+    main
+    {
+        display: block;
+    }
+    main aside hr
+    {
+        display: none;
+    } 
+    
+    main aside
+    {
+        width: 100%;
+        padding: 50px;
+    }
+    main aside .content
+    {
+        width: 350px;
+    }
+}

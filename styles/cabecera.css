@@ -1,0 +1,140 @@
+header
+{
+    margin: 0px;
+    padding: 10px 20px;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.085);
+}
+header #logo
+{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+header #logo img
+{
+    width: 70px;
+}
+header section#logo
+{
+    width: 150px;
+}
+
+header section.menu nav ul
+{
+    display: flex;
+    margin: 0px;
+}
+header section.menu nav li
+{
+    list-style-type: none;
+}
+header section.menu nav li a
+{
+    padding: 10px;
+    color: black;
+    text-decoration: none;
+}
+header section.menu nav li a:hover
+{
+    border-bottom: 1px solid black;
+}
+.login a
+{
+    text-decoration: none;
+    padding: 10px;
+    color: blue !important;
+    border: 3px solid blue;
+    border-radius: 5px;
+}
+.login a:hover
+{
+    padding: 10px;
+    color: rgb(255, 255, 255) !important;
+    border: 3px solid blue;
+    background-color: blue;
+}
+
+header section#side-menu-button button i
+{
+    color: blue;
+    font-size: 20px;
+    padding: 10px;
+}
+
+header section#side-menu-button
+{
+    display: none;
+}
+
+header section#side-menu-button button
+{
+    border: 1px solid blue;
+    background: none;
+    border-radius: 10px;
+    
+    box-shadow: 0px 5px 0px blue;
+}
+
+header section#side-menu-button button:active
+{
+    border: 1px solid blue;
+    background: none;
+    border-radius: 10px;
+    margin-bottom: -5px;
+    box-shadow: 0px 0px 0px blue;
+}
+
+@media  (max-width: 768px)
+{
+    header section.menu
+    {
+        display: none;
+    }
+    header section.login
+    {
+        display: none;
+    }
+    header section#side-menu-button
+    {
+        display: block;
+    }
+}
+#aside-menu
+{
+    z-index: 2;
+    position: fixed;
+    bottom: -100px;
+    right: 0;
+    background-color: white;
+    width: 50%;
+    height: 100%;
+    box-shadow: -15px 16px 13px #0000001a;
+    padding-left: 50px;
+}
+#aside-menu section.menu
+{
+    padding-bottom: 50px;
+}
+#aside-menu section.menu nav ul
+{
+    padding: 0px;
+}
+#aside-menu section.menu nav li
+{
+    padding: 10px 10px 10px 0px;
+    list-style: none;   
+}
+#aside-menu section.menu nav li a
+{
+    padding: 10px 10px 10px 0px;
+    color: black;
+    text-decoration: none;
+}
+#aside-menu section.menu nav li a:hover
+{
+    border-bottom: 1px solid black;
+}
