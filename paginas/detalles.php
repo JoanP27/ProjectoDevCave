@@ -24,7 +24,7 @@
     <main>
         <section>
             <div class="content">
-                <img src=<?php echo "../" . $datos['imagen'] ?>>
+                <img src='<?php echo $datos['imagen'] ?>'>
                 <h2><?php echo $datos['titulo'] ?></h2>
                 <p><?php echo $datos['descripcion'] ?></p>
             </div>

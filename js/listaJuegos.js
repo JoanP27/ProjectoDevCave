@@ -29,7 +29,7 @@ window.addEventListener('load', function(){
         juego.className = "juego";
         
         let imagen = this.document.createElement("div");
-        imagen.style = "background-image: url(../" + juegos[i].imagen + ")";
+        imagen.style = "background-image: url('"+ juegos[i].imagen +"')";
         imagen.id = "imagen";
         juego.appendChild(imagen);
 
