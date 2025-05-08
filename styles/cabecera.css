@@ -138,3 +138,40 @@ header section#side-menu-button button:active
 {
     border-bottom: 1px solid black;
 }
+header section.user_profile
+{
+    position: relative;
+}
+header section.user_profile button#menu_usuario
+{
+    color: blue !important;
+    border: 3px solid blue;
+    padding: 10px;
+    border-radius: 9px;
+    background-color: white;
+    color: black;
+    text-decoration: none;
+}
+header section.user_profile div#user_profile_options
+{
+    width: 150px;
+    right: 0;
+    border-radius: 9px;
+    background-color: white;
+    padding: 10px;
+    position: absolute;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.085);
+}
+header section.user_profile div#user_profile_options ul, li
+{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+header section.user_profile div#user_profile_options button
+{
+    background-color: white;
+    border: none;
+    padding: 0;
+}
+

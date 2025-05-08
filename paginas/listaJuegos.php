@@ -1,5 +1,8 @@
+<?php include("../elementos/sesion_php.inc")?>
 <?php 
+include("../elementos/cabecera.inc");
 include("../elementos/conexion.php");
+
 
 if(isset($_POST["titulo"])){$datos["titulo"] = $_POST["titulo"];}
 else{
@@ -30,7 +33,6 @@ $resultado = BuscarJuegos($conexion, $datos);
     <script src="../js/listaJuegos.js"></script>
 </head>
 <body>
-    <?php include('../elementos/cabecera.inc'); ?>
     <main>
         <section id="busqueda">
             <form action="listaJuegos.php" method="post" name="formulario">

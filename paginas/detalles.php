@@ -1,3 +1,5 @@
+<?php include("../elementos/sesion_php.inc")?>
+<?php include("../elementos/cabecera.inc") ?>
 <?php
     include("../elementos/conexion.php");
     $id = $_REQUEST['id'];
@@ -20,11 +22,10 @@
     <script type="text/javascript" src="../bootstrap/js/bootstrap.min.js"></script>
 </head>
 <body>
-    <?php include("../elementos/cabecera.inc") ?>
     <main>
         <section>
             <div class="content">
-                <img src='<?php echo $datos['imagen'] ?>'>
+                <img src=<?php echo "../" . $datos['imagen'] ?>>
                 <h2><?php echo $datos['titulo'] ?></h2>
                 <p><?php echo $datos['descripcion'] ?></p>
             </div>

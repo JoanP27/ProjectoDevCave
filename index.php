@@ -1,3 +1,5 @@
+<?php include("elementos/sesion_php.inc")?>
+<?php include("elementos/cabecera.inc");?>
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -10,7 +12,6 @@
     <link rel="stylesheet" href="styles/index.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
-<?php include('elementos/cabecera.inc'); ?>
 <body>
     <main>
         <section id="carousel" class="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-interval="5000">

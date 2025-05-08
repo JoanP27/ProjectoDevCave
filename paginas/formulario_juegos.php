@@ -1,3 +1,4 @@
+<?php include("../elementos/sesion_php.inc")?>
 <?php     include("../elementos/cabecera.inc"); ?>
 <!DOCTYPE html>
 <html lang="en">

@@ -1,4 +1,5 @@
 <?php 
+
     include("../elementos/conexion.php");
     header("Location:listaJuegos.php");
     $correcto = true;

@@ -1,0 +1,56 @@
+html, body
+{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+main
+{
+    padding: 10px;
+
+}
+main section#login
+{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+main section#login form
+{
+    padding: 20px 20px 20px 20px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.085);
+    border-radius: 10px;
+}
+main section#login form div input
+{
+    margin-top: 10px;
+}
+main section#login form div
+{
+    padding-bottom: 20px;
+}
+
+main section#login form div#contenedorBoton
+{
+    padding-top: 20px;
+}
+main section#login form h4
+{
+    color: blue;
+}
+main section#login form button
+{
+    background-color: white;
+    padding: 10px;
+    color: blue !important;
+    border: 3px solid blue;
+    border-radius: 5px;
+}
+main section#login form button:hover
+{
+    padding: 10px;
+    color: rgb(255, 255, 255) !important;
+    border: 3px solid blue;
+    background-color: blue;
+}
